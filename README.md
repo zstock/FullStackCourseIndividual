@@ -1,0 +1,2 @@
+# FullStackCourseIndividual
+Individual Assignment
