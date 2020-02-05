@@ -1,2 +1,2 @@
 # FullStackCourseIndividual
-Individual Assignment
+Zach Stock - Individual Assignment
