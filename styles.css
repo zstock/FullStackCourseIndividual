@@ -1,0 +1,35 @@
+body {
+    background-image: url(images/background1_edit.png);
+    background-repeat: no-repeat;
+}
+h1, h2, h3, h4{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: ghostwhite;
+}
+p{
+    font-family: Arial, Gadget, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.avatar {
+    border-radius: 50%;
+}
+/* unvisited link */
+a:link {
+    color: red;
+    }
+    /* visited link */
+    a:visited {
+    color: green;
+    }
+    /* mouse over link */
+    a:hover {
+    color: hotpink;
+    }
+    /* selected link */
+    a:active {
+    color: blue;
+    }
