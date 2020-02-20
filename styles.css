@@ -1,35 +1,152 @@
 body {
-    background-image: url(images/background1_edit.png);
+    background-image: url(images/bg_triangles.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
 }
+/*Header and Contained Elements*/
+.header
+{
+    background-color: #ec7f37cc;
+    margin: 0px;
+}
+.header-nav
+{
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.header-item
+{
+    float: right;
+}
+.header-item a
+{
+    padding: 16px;
+    text-decoration: none;
+}
+.header-title
+{
+    display: inline-block;
+    margin-left: 50px;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+/*End of Header*/
+
+/*Text*/
 h1, h2, h3, h4{
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Trebuchet, Helvetica, sans-serif;
     color: ghostwhite;
 }
-p{
-    font-family: Arial, Gadget, sans-serif;
+p, b, i{
+    font-family: Trebuchet, Helvetica, sans-serif;
     color: ghostwhite;
     text-align: center;
 }
-table{
-    border-collapse: collapse;
+/**/
+
+.container
+{
+    width: 70%;
+    margin: 30px auto;
 }
+.center-children
+{
+    text-align: center;
+}
+
 .avatar {
-    border-radius: 50%;
+    display: inline-block;
+    border-radius: 5px;
+    border:1px solid #ec7f37;
 }
-/* unvisited link */
+.subtitle
+{
+    display: inline-block;
+    margin: auto 15px;
+    text-align: left;
+}
+.section-title
+{
+    text-align: center;
+    color: #ec7f37;
+}
+.section-content
+{
+    text-align: center;
+}
+
+/*Links*/
 a:link {
-    color: red;
-    }
-    /* visited link */
-    a:visited {
-    color: green;
-    }
-    /* mouse over link */
-    a:hover {
-    color: hotpink;
-    }
-    /* selected link */
-    a:active {
-    color: blue;
-    }
+    color: #393939;
+}
+a:visited {
+    color: #393939;
+}
+a:hover {
+    color: #393939;
+    background-color: #FF5a09;
+    border-radius: 3px;
+}
+a:active {
+    color: #222222;
+}
+/*End of Links*/
+
+/*Grid*/
+.grid
+{
+    display: table;
+    border-collapse:separate;
+    border-spacing:5px;
+}
+.gridrow
+{
+    display: table-row;
+}
+.gridcell
+{
+    display: table-cell;
+    position: relative;
+}
+.gridcell span
+{
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 100%;
+    background-color: #FF5a0999;
+}
+
+.gridcell span b
+{
+    padding-left: 5px;;
+}
+
+/*Possible Colour Schemes
+Dark & Orange
+Dark Gray: #393939
+Deep Orange: #FF5a09
+Light Orange: #ec7f37
+Orange Yellow: #be4f0c
+
+Retro
+Yellow Hand: #fbf579
+Lonely Blue: #005995
+Stationary Pink Red: #fa625f
+Purpled: #600473
+
+Squeaky
+Fresh: #4abdac
+Vermillion: #fc4a1a
+Sunshine: #f7b733
+Clean: #dfdce3
+
+Rusty
+Rust Red: #c1432e
+Silver: #4b6777
+Rust Gold: #ce9e62
+Contrast Black: #2c2c2c
+*/

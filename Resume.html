@@ -1,68 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Zachary Stock - Homepage</title>
+        <title>Zachary Stock - Resume</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <table width="100%">
-            <tr>
-                <th width="28%"><h1>Zach Stock</h1></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Homepage.html">Home</a></h2></th>
-                <th width="18%"><h2>Resume</h2></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Portfolio.html">Portfolio</a></h2></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Contact.html">Contact</a></h2></th>
-            </tr>
-        </table>
-        <hr>
-        <table width="100%">
-            <tr>
-                <td width="20%"></td>
-                <td width="20%"></td>
-                <td width="20%"></td>
-                <td width="20%"></td>
-                <td width="20%"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>                    
-                    <h3>Work Experience</h3>
-                </td>
-            </tr>
-            <tr><!-- Digital Leisure. -->
-                <td></td>
-                <td>
-                </td>
-                <td colspan="2">
-                    <b>Digital Leisure Inc.</b> <i> April 2016 - Present</i><br>
-                    <p>While working at Digital Leisure, I have been responsible for developing <b>The Four Kings Casino and Slots.</b>
-                    In addition to this, I have been responsible for developing a collection of tools for both programmers and artists to aid in the development of games.</p>
-                </td>
-            </tr>
-            <tr><!-- Game Pill. -->
-                <td></td>
-                <td>
-                </td>
-                <td colspan="2">
-                    <b>Game Pill Inc.</b> <i> November 2014 - March 2016</i><br>
-                    <p>I had a wide array of responsibilities in my time at Game Pill. This included developing mobile games for clients, mentoring interns,
-                        and leading design meetings to ensure client satisfaction.</p>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>                    
-                    <h3>Education</h3>
-                </td>
-            </tr>
-            <tr><!-- UOIT -->
-                <td></td>
-                <td>
-                </td>
-                <td colspan="2">
-                    <b>University of Ontario Institute of Technology</b> <i> 2010 - 2014</i><br>
-                    <p>B.IT in Video Game Development and Entrepreneurship</p>
-                </td>
-            </tr>
-        </table>
+        <header class="header">
+            <h1 class="header-title">Zach Stock</h1></th>
+            <ul class="header-nav">
+                <li class="header-item"><h2><a href="Contact.html">Contact</a></h2></li>
+                <li class="header-item"><h2><a href="Portfolio.html">Portfolio</a></h2></li>
+                <li class="header-item"><h2><a href="#">Resume</a></h2></li>
+                <li class="header-item"><h2><a href="Homepage.html">Home</a></h2></li>
+            </ul>
+        </header>
+        <div class="container">       
+            <h3 class="section-title">Work Experience</h3>
+            
+            <!-- Digital Leisure. -->
+            <div class="section-content"> 
+                <b>Digital Leisure Inc.</b> <i> April 2016 - Present</i><br>
+                <p>While working at Digital Leisure, I have been responsible for developing <b>The Four Kings Casino and Slots.</b>
+                In addition to this, I have been responsible for developing a collection of tools for both programmers and artists to aid in the development of games.</p>
+            </div>
+            <!-- Game Pill. -->
+            <div class="section-content"> 
+                <b>Game Pill Inc.</b> <i> November 2014 - March 2016</i><br>
+                <p>I had a wide array of responsibilities in my time at Game Pill. This included developing mobile games for clients, mentoring interns,
+                and leading design meetings to ensure client satisfaction.</p>
+            </div>
+
+            <h3 class="section-title">Education</h3>
+            <!-- UOIT -->
+            <div class="section-content">
+                <b>University of Ontario Institute of Technology</b> <i> 2010 - 2014</i><br>
+                 <p>B.IT in Video Game Development and Entrepreneurship</p>
+             </div>
+        </div>
     </body>
 </html>

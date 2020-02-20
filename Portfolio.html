@@ -2,56 +2,51 @@
 <html>
     <head>
         <title>Zachary Stock - Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+
     </head>
     <body>
-        <table width="100%">
-            <tr>
-                <th width="28%"><h1>Zach Stock</h1></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Homepage.html">Home</a></h2></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Resume.html">Resume</a></h2></th>
-                <th width="18%"><h2>Portfolio</h2></th>
-                <th width="18%"><h2><a href="../Individual Assignment - Phase 1/Contact.html">Contact</h2></th>
+        <header class="header">
+            <h1 class="header-title">Zach Stock</h1></th>
+            <ul class="header-nav">
+                <li class="header-item"><h2><a href="Contact.html">Contact</a></h2></li>
+                <li class="header-item"><h2><a href="#">Portfolio</a></h2></li>
+                <li class="header-item"><h2><a href="Resume.html">Resume</a></h2></li>
+                <li class="header-item"><h2><a href="Homepage.html">Home</a></h2></li>
+            </ul>
+        </header>
+        <div class="grid container"><!--For now I am using projects from my job because I do not yet have content from this course to include on this page-->
+            <div class="gridrow">
+                <h2>My Work!</h2>
             </tr>
-        </table>
-        <hr>
-        <table><!--For now I am using projects from my job because I do not yet have content from this course to include on this page-->
-            <tr>
-                <td width="20%"></td>
-                <td width="20%"><h2>My Work!</h2></td>
-                <td width="20%"></td>
-                <td width="20%"></td>
-                <td width="20%"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
+            <div class="gridrow">
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/FK_Tile.png"></a>
-                    <strong>Four Kings Casino and Slots</strong>
-                </td>
-                <td>
+                    <span><b>Four Kings Casino and Slots</b></span>
+                </div>
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/KP_Tile.png"></a>
-                    <strong>King Pins Bowling Alley</strong>
-                </td>
-                <td>
+                    <span><b>King Pins Bowling Alley</b></span>
+                </div>
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/GR_Tile.png"></a>
-                    <strong>Gold Rush</strong>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
+                    <span><b>Gold Rush</b></span>
+                </div>
+            </div>
+            <div class="gridrow">
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/TT_Tile.png"></a>
-                    <strong>Treasure Trap</strong>
-                </td>
-                <td>
+                    <span><b>Treasure Trap</b></span>
+                </div>
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/MM_Tile.png"></a>
-                    <strong>Millionaire Manor</strong>
-                </td>
-                <td>
+                    <span><b>Millionaire Manor</b></span>
+                </div>
+                <div class="gridcell">
                     <a href="https://store.steampowered.com/app/260430/The_Four_Kings_Casino_and_Slots/" target="_blank"><img src="images/SS_Tile.png"></a>
-                    <strong>Slots in Space!</strong>
-                </td>
-            </tr>
+                    <span><b>Slots in Space!</b></span>
+                </div>
+            </div>
         </table>
     </body>
 </html>
