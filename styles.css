@@ -1,6 +1,6 @@
 body {
     background-image: url(images/bg_triangles.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     margin: 0px;
 }
@@ -125,6 +125,67 @@ a:active {
     padding-left: 5px;;
 }
 
+/*Contact*/
+.envelope
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.contact
+{
+    display: inline-block;
+    margin: 15px;
+    text-align: left;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #393939;
+    box-shadow: inset 0 1px 3px #ff5a09;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #393939;
+    color: #ec7f37;
+}
+textarea
+{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #393939;
+    box-shadow: inset 0 1px 3px #ff5a09;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #393939;
+    font-family: Trebuchet, Helvetica, sans-serif;
+    color: #ec7f37;
+}
+input[type=submit]
+{
+    text-align: center;
+    background-color: #ec7f37;
+    color: white;
+    padding: 12px 20px;
+    margin: 14px 0 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #fff;
+}
 /*Possible Colour Schemes
 Dark & Orange
 Dark Gray: #393939
