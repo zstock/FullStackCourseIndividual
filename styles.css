@@ -174,7 +174,7 @@ textarea
     font-family: Trebuchet, Helvetica, sans-serif;
     color: #ec7f37;
 }
-input[type=submit]
+.submit
 {
     text-align: center;
     background-color: #ec7f37;
