@@ -105,6 +105,7 @@ a:active {
 .gridrow
 {
     display: table-row;
+    margin: auto;
 }
 .gridcell
 {
@@ -124,7 +125,11 @@ a:active {
 {
     padding-left: 5px;;
 }
-
+.gridcell a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /*Contact*/
 .envelope
 {
